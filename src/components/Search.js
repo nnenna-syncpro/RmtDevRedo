@@ -9,7 +9,7 @@ import {
 import renderJobList from "./JobList.js";
 
 //The instructor added a SUBMIT event listener to the search form while I added an INPUT handler to the search input
-const searchInputHandler = async () => {
+const searchSubmitHandler = async () => {
   let searchTerm = searchInputEl.value;
   console.log(searchTerm);
 
@@ -33,4 +33,4 @@ const searchInputHandler = async () => {
   searchInputEl.blur();
 };
 
-searchInputEl.addEventListener("input", searchInputHandler);
+searchFormEl.addEventListener("submit", searchSubmitHandler);
