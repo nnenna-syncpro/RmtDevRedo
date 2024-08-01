@@ -9,6 +9,11 @@ export const searchInputEl = document.querySelector(".search__input");
 export const numberEl = document.querySelector(".count__number");
 export const jobListSearchEl = document.querySelector(".job-list--search");
 
+export const jobDetailsEl = document.querySelector(".job-details");
+export const jobDetailsContentEl = document.querySelector(
+  ".job-details__content"
+);
+
 //UTILITY FUNCTIONS
 //get jobs from api
 //for search all jobs == API_URL?searchTerm=inputValue

@@ -4,7 +4,6 @@ import {
   searchFormEl,
   searchInputEl,
   numberEl,
-  jobListSearchEl,
 } from "../common.js";
 import renderJobList from "./JobList.js";
 
